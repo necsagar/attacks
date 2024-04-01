@@ -1,0 +1,3 @@
+gcc -shared -fPIC -o gconv.so gconv.c
+
+gcc -o pwnkit pwnkit.c -ldl
